@@ -13,7 +13,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+# dist/
 downloads/
 eggs/
 .eggs/
@@ -188,4 +188,4 @@ pypi_release.md
 build_release.sh
 
 # VS Code settings (uncomment if you want to ignore)
-# .vscode/
+.vscode/
