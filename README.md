@@ -2,8 +2,8 @@
 
 <div align="center">
 
-[![PyPI version](https://badge.fury.io/py/codedev.svg)](https://badge.fury.io/py/codedev)
-[![Python Version](https://img.shields.io/pypi/pyversions/codedev.svg)](https://pypi.org/project/codedev/)
+[![PyPI version](https://img.shields.io/badge/PyPI-v2.0.0-blue.svg)](https://pypi.org/project/codedev/)
+[![Python Version](https://img.shields.io/badge/Python-3.8%2B-brightgreen.svg)](https://pypi.org/project/codedev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [![GitHub Repository](https://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
