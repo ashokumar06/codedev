@@ -4,10 +4,99 @@
 [![Python Version](https://img.shields.io/pypi/pyversions/codedev.svg)](https://pypi.org/project/codedev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
+[![GitHub Issues](https://img.shields.io/github/issues/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/network)
 
-🚀 **CodeDev** is an advanced AI-powered coding assistant with terminal integration, created by [Ashok Kumar](https://ashokumar.in).
+🚀 **CodeDev** is an advanced open-source AI-powered coding assistant with terminal integration, created by [Ashok Kumar](https://ashokumar.in).
 
-📦 **Repository**: [https://github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev)
+## 🔗 Links & Resources
+
+- 📦 **GitHub Repository**: [https://github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev)
+- 🐍 **PyPI Package**: [https://pypi.org/project/codedev/](https://pypi.org/project/codedev/)
+- 📚 **Documentation**: [GitHub Wiki](https://github.com/ashokumar06/codedev/wiki)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/ashokumar06/codedev/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/ashokumar06/codedev/discussions)
+- 👤 **Author**: [Ashok Kumar](https://ashokumar.in)
+
+## 🎯 Open Source
+
+CodeDev is completely **open source** and free to use! We welcome contributions from the community.
+
+- ⭐ **Star us on GitHub**: [github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev)
+- 🍴 **Fork the project**: Create your own improvements
+- 🐛 **Report bugs**: Help us improve the software
+- 💡 **Suggest features**: Share your ideas
+- 🤝 **Contribute code**: Submit pull requests
+
+---
+
+## 🚀 Installation Options
+
+### Option 1: Install from PyPI (Recommended)
+
+```bash
+# Install the latest stable version
+pip install codedev
+
+# Use the commands
+codedev --version
+cdev --version
+
+# Start using
+codedev
+```
+
+### Option 2: Install from GitHub (Latest)
+
+```bash
+# Install directly from GitHub
+pip install git+https://github.com/ashokumar06/codedev.git
+
+# Or clone and install
+git clone https://github.com/ashokumar06/codedev.git
+cd codedev
+pip install .
+```
+
+### Option 3: Build from Source (Development)
+
+```bash
+# Clone the repository
+git clone https://github.com/ashokumar06/codedev.git
+cd codedev
+
+# Create virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
+
+# Test installation
+codedev --version
+cdev --version
+```
+
+### Option 4: Direct Build and Install
+
+```bash
+# Clone and build wheel
+git clone https://github.com/ashokumar06/codedev.git
+cd codedev
+
+# Install build tools
+pip install build
+
+# Build the package
+python -m build
+
+# Install the wheel
+pip install dist/codedev-*.whl
+```
 
 ## ✨ Key Features
 
@@ -49,53 +138,48 @@
 - **History Management**: Persistent command history across sessions
 - **Interactive Prompts**: Intuitive prompts with context information
 
-## 🔧 Installation & Setup
+## 🔧 Setup & Usage
 
-### Linux (Automatic)
+### Quick Start
+
+1. **Install CodeDev**:
+   ```bash
+   pip install codedev
+   ```
+
+2. **Start using**:
+   ```bash
+   codedev                   # Start in current directory
+   cdev                      # Short command
+   ```
+
+3. **AI will auto-setup Ollama** (Linux) or guide you through manual installation
+
+### Usage Examples
+
+#### Natural Language Commands
 ```bash
-git clone <repository>
-cd ai-coder
-python main.py  # Will auto-install Ollama if needed
+codedev> create a web server
+codedev> fix @app.py
+codedev> show my files  
+codedev> # todo add authentication
+codedev> refactor this code to use classes
 ```
 
-### Manual Installation
+#### Structured Commands
 ```bash
-# Install Ollama first
-curl -fsSL https://ollama.com/install.sh | sh  # Linux
-# or download from https://ollama.com/download for macOS/Windows
-
-# Install AI Coder
-git clone <repository>
-cd ai-coder
-pip install -r requirements.txt
-python main.py
+codedev> create server.py python "FastAPI web server with JWT auth"
+codedev> edit @app.py python "add error handling"
+codedev> models                    # Show available AI models
+codedev> model deepseek-coder:6.7b # Switch to different model
+codedev> help                      # Show all commands
 ```
 
-## 📖 Usage Examples
-
-### Natural Language Commands
+#### Project Operations
 ```bash
-ai-coder> create a web server
-ai-coder> fix @app.py
-ai-coder> show my files  
-ai-coder> # todo add authentication
-ai-coder> refactor this code to use classes
-```
-
-### Structured Commands
-```bash
-ai-coder> create server.py python "FastAPI web server with JWT auth"
-ai-coder> edit @app.py python "add error handling"
-ai-coder> models                    # Show available AI models
-ai-coder> model deepseek-coder:6.7b # Switch to different model
-ai-coder> help                      # Show all commands
-```
-
-### Project Operations
-```bash
-ai-coder> create-project python myapi "REST API with FastAPI"
-ai-coder> analyze-project
-ai-coder> refactor-project "add type hints everywhere"
+codedev> create-project python myapi "REST API with FastAPI"
+codedev> analyze-project
+codedev> refactor-project "add type hints everywhere"
 ```
 
 ## 🤖 Model Management
@@ -207,29 +291,96 @@ systemctl status ollama
 
 ## 🤝 Contributing
 
-We welcome contributions! The AI Coder is built with a modular architecture:
+We welcome contributions from the community! CodeDev is open source and thrives on community involvement.
+
+### Ways to Contribute
+
+1. **⭐ Star the Repository**: Show your support on [GitHub](https://github.com/ashokumar06/codedev)
+2. **🐛 Report Bugs**: Submit issues on [GitHub Issues](https://github.com/ashokumar06/codedev/issues)
+3. **💡 Feature Requests**: Suggest new features via [GitHub Discussions](https://github.com/ashokumar06/codedev/discussions)
+4. **📖 Documentation**: Improve docs and examples
+5. **🔧 Code Contributions**: Submit pull requests
+
+### Development Setup
+
+```bash
+# Fork the repository on GitHub, then:
+git clone https://github.com/YOUR_USERNAME/codedev.git
+cd codedev
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+pip install -e .
+
+# Run tests
+python test_installation.py
+
+# Make your changes and submit a pull request!
+```
+
+### Project Structure
 
 ```
-ai_coder/
-├── ai/           # AI client and prompt management
-├── core/         # Configuration and core utilities  
-├── operations/   # File and project operations
-├── safety/       # Security and sandboxing
-├── utils/        # Utilities and platform detection
-└── cli.py        # Main CLI interface
+codedev/
+├── ai_coder/           # Main package
+│   ├── ai/            # AI client and prompt management
+│   ├── core/          # Configuration and core utilities  
+│   ├── operations/    # File and project operations
+│   ├── safety/        # Security and sandboxing
+│   ├── utils/         # Utilities and platform detection
+│   └── cli.py         # Main CLI interface
+├── config/            # Default configuration
+├── tests/             # Test suite
+├── .github/           # GitHub workflows
+└── setup.py           # Package configuration
 ```
 
 ## 📄 License
 
-MIT License - see LICENSE file for details.
+CodeDev is released under the **MIT License** - see [LICENSE](https://github.com/ashokumar06/codedev/blob/main/LICENSE) file for details.
+
+This means you can:
+- ✅ Use it commercially
+- ✅ Modify and distribute
+- ✅ Private use
+- ✅ Include in your projects
+
+## � Support the Project
+
+If you find CodeDev useful, please consider:
+
+- ⭐ **Starring** the repository on [GitHub](https://github.com/ashokumar06/codedev)
+- 🐛 **Reporting bugs** and suggesting features
+- 🤝 **Contributing** code or documentation
+- 💬 **Sharing** it with other developers
 
 ---
 
-**🎯 Ready to revolutionize your coding workflow?**
+## 🎯 Get Started Now!
+
 ```bash
-git clone <repository>
-cd ai-coder  
-python main.py
+# Install and start using immediately
+pip install codedev
+codedev
+
+# Or build from source
+git clone https://github.com/ashokumar06/codedev.git
+cd codedev && pip install -e .
+codedev --version
 ```
-# codedev
-# codedev
+
+**Ready to revolutionize your coding workflow with AI?** 🚀
+
+---
+
+<div align="center">
+
+**Made with ❤️ by [Ashok Kumar](https://ashokumar.in)**
+
+[GitHub](https://github.com/ashokumar06/codedev) • [PyPI](https://pypi.org/project/codedev/) • [Issues](https://github.com/ashokumar06/codedev/issues) • [Discussions](https://github.com/ashokumar06/codedev/discussions)
+
+</div>
