@@ -1,23 +1,21 @@
 # CodeDev - Advanced AI Coding Assistant
 
+<div align="center">
+
 [![PyPI version](https://badge.fury.io/py/codedev.svg)](https://badge.fury.io/py/codedev)
 [![Python Version](https://img.shields.io/pypi/pyversions/codedev.svg)](https://pypi.org/project/codedev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Reposito## 💝 Support the Project
 
-If you find CodeDev useful, please consider:
-
-- ⭐ **Starring** the repository on [GitHub](https://github.com/ashokumar06/codedev)
-- 🐛 **Reporting bugs** and suggesting features
-- 🤝 **Contributing** code or documentation
-- 💬 **Sharing** it with other developers
-- ☕ **Buying me a coffee**: [buymeacoffee.com/ashokumar](https://buymeacoffee.com/ashokumar)
-- 💳 **Supporting via Razorpay**: [razorpay.me/@ashokumar06](https://razorpay.me/@ashokumar06)
-
-> **Thank you for being part of this journey! Your support keeps the code flowing and the coffee brewing! ☕❤️**s://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
 [![GitHub Issues](https://img.shields.io/github/issues/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/network)
+
+**✨ Currently available on TestPyPI - Production PyPI release coming soon! ✨**
+
+</div>
+
+---
 
 🚀 **CodeDev** is an advanced open-source AI-powered coding assistant with terminal integration, personally crafted with ❤️ by [Ashok Kumar](https://ashokumar.in).
 
