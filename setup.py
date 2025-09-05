@@ -33,8 +33,8 @@ setup(
     url="https://ashokumar.in",
     project_urls={
         "Homepage": "https://ashokumar.in",
-        "Source": "https://github.com/ashokumar/codedev",
-        "Bug Reports": "https://github.com/ashokumar/codedev/issues",
+        "Source": "https://github.com/ashokumar06/codedev",
+        "Bug Reports": "https://github.com/ashokumar06/codedev/issues",
         "Documentation": "https://ashokumar.in/codedev",
     },
     packages=find_packages(),
@@ -63,7 +63,7 @@ setup(
     entry_points={
         "console_scripts": [
             "codedev=ai_coder.main:main",
-            "cd=ai_coder.main:main",
+            "cdev=ai_coder.main:main",
         ],
     },
     include_package_data=True,

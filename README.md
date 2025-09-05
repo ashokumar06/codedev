@@ -3,8 +3,11 @@
 [![PyPI version](https://badge.fury.io/py/codedev.svg)](https://badge.fury.io/py/codedev)
 [![Python Version](https://img.shields.io/pypi/pyversions/codedev.svg)](https://pypi.org/project/codedev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
 
 🚀 **CodeDev** is an advanced AI-powered coding assistant with terminal integration, created by [Ashok Kumar](https://ashokumar.in).
+
+📦 **Repository**: [https://github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev)
 
 ## ✨ Key Features
 

@@ -23,7 +23,7 @@ Examples:
   codedev                   # Start in current directory
   codedev -w /path/to/code  # Start in specific workspace
   codedev -m codellama      # Use specific model
-  cd                        # Short command alias
+  cdev                      # Short command alias
   
 Author: Ashok Kumar
 Website: https://ashokumar.in

@@ -1,3 +1,0 @@
-[console_scripts]
-cd = ai_coder.main:main
-codedev = ai_coder.main:main
