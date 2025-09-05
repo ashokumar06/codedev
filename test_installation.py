@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-CodeAS Installation and Functionality Test
+CodeDev Installation and Functionality Test
 Author: Ashok Kumar (https://ashokumar.in)
+Repository: https://github.com/ashokumar06/codedev
 """
 
 import subprocess
