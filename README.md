@@ -3,12 +3,32 @@
 [![PyPI version](https://badge.fury.io/py/codedev.svg)](https://badge.fury.io/py/codedev)
 [![Python Version](https://img.shields.io/pypi/pyversions/codedev.svg)](https://pypi.org/project/codedev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
+[![GitHub Reposito## 💝 Support the Project
+
+If you find CodeDev useful, please consider:
+
+- ⭐ **Starring** the repository on [GitHub](https://github.com/ashokumar06/codedev)
+- 🐛 **Reporting bugs** and suggesting features
+- 🤝 **Contributing** code or documentation
+- 💬 **Sharing** it with other developers
+- ☕ **Buying me a coffee**: [buymeacoffee.com/ashokumar](https://buymeacoffee.com/ashokumar)
+- 💳 **Supporting via Razorpay**: [razorpay.me/@ashokumar06](https://razorpay.me/@ashokumar06)
+
+> **Thank you for being part of this journey! Your support keeps the code flowing and the coffee brewing! ☕❤️**s://img.shields.io/badge/GitHub-ashokumar06%2Fcodedev-blue.svg)](https://github.com/ashokumar06/codedev)
 [![GitHub Issues](https://img.shields.io/github/issues/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/issues)
 [![GitHub Stars](https://img.shields.io/github/stars/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ashokumar06/codedev.svg)](https://github.com/ashokumar06/codedev/network)
 
-🚀 **CodeDev** is an advanced open-source AI-powered coding assistant with terminal integration, created by [Ashok Kumar](https://ashokumar.in).
+🚀 **CodeDev** is an advanced open-source AI-powered coding assistant with terminal integration, personally crafted with ❤️ by [Ashok Kumar](https://ashokumar.in).
+
+## 💖 Support My Work
+
+If you find CodeDev helpful and want to support my open-source journey, consider buying me a coffee! Your support helps me continue developing amazing tools for the developer community.
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ashokumar)
+[![Support via Razorpay](https://img.shields.io/badge/Support%20via-Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)](https://razorpay.me/@ashokumar06)
+
+> 🌟 **Every contribution, no matter how small, means the world to me and keeps this project alive!**
 
 ## 🔗 Links & Resources
 
@@ -19,15 +39,20 @@
 - 💬 **Discussions**: [GitHub Discussions](https://github.com/ashokumar06/codedev/discussions)
 - 👤 **Author**: [Ashok Kumar](https://ashokumar.in)
 
-## 🎯 Open Source
+## 🎯 Open Source & Community
 
-CodeDev is completely **open source** and free to use! We welcome contributions from the community.
+CodeDev is completely **open source** and free to use! This project is my passion and I've put countless hours into making it the best AI coding assistant for developers like you.
 
-- ⭐ **Star us on GitHub**: [github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev)
-- 🍴 **Fork the project**: Create your own improvements
-- 🐛 **Report bugs**: Help us improve the software
-- 💡 **Suggest features**: Share your ideas
-- 🤝 **Contribute code**: Submit pull requests
+### 🤝 How You Can Help
+
+- ⭐ **Star us on GitHub**: [github.com/ashokumar06/codedev](https://github.com/ashokumar06/codedev) - It really motivates me!
+- 🍴 **Fork the project**: Create your own improvements and innovations
+- 🐛 **Report bugs**: Help me improve the software quality
+- 💡 **Suggest features**: Share your brilliant ideas with me
+- 🤝 **Contribute code**: Submit pull requests and be part of the journey
+- 💖 **Support financially**: [Buy me a coffee](https://buymeacoffee.com/ashokumar) or [support via Razorpay](https://razorpay.me/@ashokumar06)
+
+> **Personal Note**: As an indie developer, your support and feedback mean everything to me. Every star, contribution, and coffee helps me dedicate more time to making CodeDev better! 🚀
 
 ---
 
@@ -379,8 +404,12 @@ codedev --version
 
 <div align="center">
 
-**Made with ❤️ by [Ashok Kumar](https://ashokumar.in)**
+**Made with ❤️ and countless cups of coffee by [Ashok Kumar](https://ashokumar.in)**
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ashokumar) [![Support via Razorpay](https://img.shields.io/badge/Support-Razorpay-02042B?style=flat&logo=razorpay&logoColor=white)](https://razorpay.me/@ashokumar06)
 
 [GitHub](https://github.com/ashokumar06/codedev) • [PyPI](https://pypi.org/project/codedev/) • [Issues](https://github.com/ashokumar06/codedev/issues) • [Discussions](https://github.com/ashokumar06/codedev/discussions)
+
+**Connect with me for collaboration, feedback, and let's build something amazing together!** 🤝
 
 </div>
