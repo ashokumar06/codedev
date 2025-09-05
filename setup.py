@@ -24,7 +24,7 @@ long_description = read_file("README.md") if os.path.exists("README.md") else "A
 
 setup(
     name="codedev",
-    version="2.0.0",
+    version="2.0.1",
     author="Ashok Kumar",
     author_email="contact@ashokumar.in",
     description="Advanced AI Coding Assistant with Terminal Integration",
@@ -50,6 +50,7 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
         "Topic :: Software Development :: Code Generators",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Topic :: System :: Systems Administration",
