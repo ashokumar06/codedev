@@ -1,0 +1,12 @@
+[project]
+name = "codedev"
+version = "2.0.0"
+description = "MCP-like local server for Ollama (DeepSeek R1 8B) with file + shell tools"
+readme = "README.md"
+authors = [""]
+requires-python = ">=3.10"
+
+[project.dependencies]
+httpx = "^0.24.0"
+anyio = "^4.0.0"
+python-dotenv = "^1.0.0"

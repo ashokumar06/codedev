@@ -24,7 +24,7 @@ long_description = read_file("README.md") if os.path.exists("README.md") else "A
 
 setup(
     name="codedev",
-    version="2.0.1",
+    version="3.0.0",
     author="Ashok Kumar",
     author_email="contact@ashokumar.in",
     description="Advanced AI Coding Assistant with Terminal Integration",
@@ -63,8 +63,8 @@ setup(
     install_requires=get_requirements(),
     entry_points={
         "console_scripts": [
-            "codedev=ai_coder.main:main",
-            "cdev=ai_coder.main:main",
+            "codedev=codedev:main",
+            "cdev=codedev:main",
         ],
     },
     include_package_data=True,

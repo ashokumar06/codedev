@@ -1,6 +1,6 @@
 # CodeAS - Advanced AI Coding Assistant Configuration
 # Author: Ashok Kumar (https://ashokumar.in)
-# Version: 2.0.0
+# Version: v2.0.0 --- IGNORE ---
 
 ai:
   api_url: "http://127.0.0.1:11434"

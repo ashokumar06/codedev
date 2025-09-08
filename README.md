@@ -1,4 +1,4 @@
-# CodeDev - Advanced AI Coding Assistant
+# AI Coder - Advanced AI Coding Assistant
 
 <div align="center">
 
@@ -18,6 +18,107 @@
 ---
 
 🚀 **CodeDev** is an advanced open-source AI-powered coding assistant with terminal integration, personally crafted with ❤️ by [Ashok Kumar](https://ashokumar.in).
+
+
+
+## ✨ Features
+
+- **Conversational AI Interface**: Natural language interaction with your codebase
+- **Workspace Context**: Automatically understands your project structure  
+- **File Operations**: Read, write, and edit files with AI assistance
+- **Code Analysis**: Comprehensive codebase analysis and optimization suggestions
+- **Shell Integration**: Execute commands and see results in context
+- **Real-time Streaming**: Live AI responses as they're generated
+- **MCP Server Mode**: JSON-over-stdio protocol for integration with other tools
+
+## 🛠️ Prerequisites
+
+1. **Ollama** installed and running
+2. **DeepSeek R1 8B** model downloaded
+
+### Quick Setup
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.ai/install.sh | sh
+
+# Start Ollama and get DeepSeek model  
+ollama serve
+ollama pull deepseek-r1:8b
+```
+
+### 2. Install Dependencies
+```bash
+pip install httpx
+```
+
+### 3. Run CodeDev
+```bash
+# Easy way
+./start.sh
+
+# Or directly
+python3 codedev.py
+
+# Test everything works
+python3 test.py
+```
+
+## 💡 Usage Examples
+
+```bash
+🚀 codedev> help                               # Show all commands
+🚀 codedev> analyze                            # Analyze your codebase
+🚀 codedev> files                              # List files
+🚀 codedev> read main.py                       # Read file
+🚀 codedev> ask "How can I optimize this?"     # Ask AI questions
+🚀 codedev> run python test.py                # Execute commands
+🚀 codedev> create hello.py                   # Create new file
+```
+
+## 🎯 What It Can Do
+
+- **Code Analysis**: Understand your entire codebase
+- **AI Chat**: Ask questions about your code naturally  
+- **File Operations**: Read, create, edit files with AI help
+- **Bug Detection**: Find and fix issues automatically
+- **Code Review**: Get optimization suggestions
+- **Shell Integration**: Run commands with AI context
+
+## 🔧 Available Commands
+
+| Command | Description |
+|---------|-------------|
+| `help` | Show all commands |
+| `analyze` | Analyze entire codebase |
+| `files [dir]` | List files in directory |
+| `read <file>` | Read and display file |
+| `create <file>` | Create new file interactively |
+| `run <command>` | Execute shell command |
+| `ask "<question>"` | Ask AI anything |
+| `exit` | Exit CodeDev |
+
+## 🤖 AI Examples
+
+```bash
+🚀 codedev> ask "Find security vulnerabilities in my code"
+🚀 codedev> ask "Write unit tests for the User class"  
+🚀 codedev> ask "Explain how this algorithm works"
+🚀 codedev> ask "Optimize this database query"
+🚀 codedev> ask "Add error handling to this function"
+```
+
+## 🔌 MCP Server Mode
+
+For integration with other tools:
+```bash
+python3 server.py
+
+# Send JSON commands:
+{"id":"1","tool":"fs.list","input":{"dir":"."}}
+{"id":"2","tool":"ollama.chat","input":{"prompt":"Hello","model":"deepseek-r1:8b"}}
+```
+
 
 ## 💖 Support My Work
 
